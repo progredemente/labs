@@ -1,0 +1,27 @@
+* {
+    font-family: ComicTypo;
+    box-sizing: border-box;
+    --primary-color: #149B9B;
+    --secondary-color: #BDFEFE;
+    --text-color: #1C6868;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 1.5em;
+    background: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.prg-button {
+    --prg-button-background-color: var(--text-color);
+    --prg-button-text-color: var(--secondary-color);
+}
