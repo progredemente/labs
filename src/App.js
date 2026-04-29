@@ -34,7 +34,7 @@ class App extends Component {
                     <div className='title-container'>
                         <div className='title'>progredemente labs</div>
                         <div className='subtitle'>Donde sí puedes <a href='https://www.youtube.com/watch?v=QNTZbJSQVis' target='_blank' rel="noopener noreferrer">liarla parda</a></div>
-                        <div className='author'>por <a href='/'>progredemente</a></div>
+                        <div className='author'>por <a href='https://progredemente.com'>progredemente</a></div>
                     </div>
                 </div>
                 <div className='app-container'>
