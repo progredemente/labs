@@ -51,7 +51,7 @@ class App extends Component {
                         !this.state.categorize && Object.keys(appList).map((k) => {
                             const app = appList[k];
                             return (
-                                <a key={k} className='app' href={`/${k}`}>
+                                <a key={k} className='app' href={`https://${k}.progredemente.com`}>
                                     <img src={`${process.env.MEDIA_URL}/resources/logos/${app.img}`} />
                                     <div>{app.name}</div>
                                 </a>
@@ -67,7 +67,7 @@ class App extends Component {
                                 {
                                     category.map((c) => {
                                         return (
-                                            <a key={c.id} className='app'href={`/${c.id}`}>
+                                            <a key={c.id} className='app' href={`https://${c.id}.progredemente.com`}>
                                                 <img src={`${process.env.MEDIA_URL}/resources/logos/${c.img}`} />
                                                 <div>{c.name}</div>
                                             </a>
