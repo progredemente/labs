@@ -30,7 +30,7 @@ class App extends Component {
         return (
             <div className='labs-app'>
                 <div className='header'>
-                    <img src={`${process.env.RESOURCES_URL}/labs.png`} alt="progredemente labs"/>
+                    <img src={`${process.env.MEDIA_URL}/resources/logos/labs.png`} alt="progredemente labs"/>
                     <div className='title-container'>
                         <div className='title'>progredemente labs</div>
                         <div className='subtitle'>Donde sí puedes <a href='https://www.youtube.com/watch?v=QNTZbJSQVis' target='_blank' rel="noopener noreferrer">liarla parda</a></div>
@@ -52,7 +52,7 @@ class App extends Component {
                             const app = appList[k];
                             return (
                                 <a key={k} className='app' href={`/${k}`}>
-                                    <img src={`${process.env.RESOURCES_URL}/${app.img}`} />
+                                    <img src={`${process.env.MEDIA_URL}/resources/logos/${app.img}`} />
                                     <div>{app.name}</div>
                                 </a>
                             );
@@ -68,7 +68,7 @@ class App extends Component {
                                     category.map((c) => {
                                         return (
                                             <a key={c.id} className='app'href={`/${c.id}`}>
-                                                <img src={`${process.env.RESOURCES_URL}/${c.img}`} />
+                                                <img src={`${process.env.MEDIA_URL}/resources/logos/${c.img}`} />
                                                 <div>{c.name}</div>
                                             </a>
                                         );
